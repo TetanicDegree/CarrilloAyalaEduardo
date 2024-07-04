@@ -1,7 +1,7 @@
 /* Estilos globales para el cuerpo del documento */
 body {
     /* Tipo de letra utilizado */
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     /* Elimina los márgenes y el relleno por defecto */
     margin: 0;
     padding: 0;
@@ -12,6 +12,7 @@ body {
 
 /* Estilos para el encabezado */
 header {
+     font-family: "Roboto", sans-serif;
     /* Color de fondo del encabezado */
     background-color: #A59D8E;
     /* Color del texto en el encabezado */
@@ -20,10 +21,12 @@ header {
     padding: 1rem 0;
     /* Alineación del texto en el centro */
     text-align: center;
+
 }
 
 /* Estilos para la barra de navegación */
 nav ul {
+    font-family: "Roboto", sans-serif;
     /* Elimina el estilo de lista por defecto */
     list-style: none;
     /* Elimina el relleno interno */
@@ -38,6 +41,7 @@ nav ul {
 
 /* Estilos para los elementos de la lista en la barra de navegación */
 nav ul li {
+    font-family: "Roboto", sans-serif;
     /* Muestra los elementos en línea */
     display: inline;
     /* Elimina los márgenes */
@@ -46,6 +50,7 @@ nav ul li {
 
 /* Estilos para los enlaces en la barra de navegación */
 nav ul li a {
+    font-family: "Roboto", sans-serif;
     /* Color del texto del enlace */
     color: #fff;
     /* Relleno interno del enlace */
@@ -62,6 +67,7 @@ main {
 
 /* Estilos para el pie de página */
 footer {
+     font-family: "Open Sans", sans-serif;
     /* Color de fondo del pie de página */
     background-color: #333;
     /* Color del texto en el pie de página */

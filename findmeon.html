@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Noto+Sans+KR:wght@100;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <h1 class="Montserrat">CONTACT</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1YbfjwrTATVYxT8XHf86mxVOGZYfG7RD6?usp=share_link">More</a></li>
+            <li>
+                <a href="findmeon.html">Contact</a>
+                <ul>
+                    <li><a onclick="sendEmail()">Email</a></li>
+                    <li><a href="https://www.instagram.com/XenialDegree/">Instagram</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="about-section">
+         <h1>Where contact us</h1>
+         <p>You can follow our instagram page @XenialDegree or if you have an specific question of our projects contact us on email.</p>
+        </div>
+
+        </div>
+    </main>
+
+    <script>
+
+        function sendEmail() {
+            var recipient = "xenialdegree@gmail.com"; // Cambia esto con el correo deseado
+            var subject = "Asunto del correo";
+            var body = "Este es el cuerpo del correo.";
+
+            var mailto_link = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+            window.location.href = mailto_link;
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,232 @@
+ /* Estilos globales para el cuerpo del documento */
+body {
+    /* Tipo de letra utilizado */
+    font-family: "Montserrat";
+    /* Elimina los márgenes y el relleno por defecto */
+    height: 100%
+    margin 0;
+    padding: 0;
+    /* Color de fondo del sitio web */
+    background-color: #A59D8E;
+    text-align: center;
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/* Estilos para el encabezado */
+header {
+    /* Color de fondo del encabezado */
+    background-image: url("./img/fondo.jpg");
+    /* Color del texto en el encabezado */
+    color: #fff;
+    /* Relleno interno del encabezado */
+    padding: 1rem 0;
+    /* Alineación del texto en el centro */
+    display: flex; /* Activa Flexbox */
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    height: 200vh;
+    height: 200px;
+    text-align: center;
+    height: 200px; 
+}
+.anton-sc-regular {
+  font-family: "Montserrat", bolt;
+  font-weight: 400;
+  font-style: normal;
+}
+
+video {
+
+text-align: center;    
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    /* Elimina el estilo de lista por defecto */
+    list-style: none;
+    /* Elimina el relleno interno */
+    padding: 0;
+    /* Alineación del texto en el centro */
+    text-align: center;
+    /* Color de fondo de la barra de navegación */
+    background-color: #444;
+    /* Elimina los márgenes */
+    margin: 0;
+}
+
+/* Estilos para los elementos de la lista en la barra de navegación */
+nav ul li {
+    /* Muestra los elementos en línea */
+    display: inline;
+    /* Elimina los márgenes */
+    margin: 0;
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+nav ul li a {
+    /* Color del texto del enlace */
+    color: #fff;
+    /* Relleno interno del enlace */
+    padding: 0.5rem 1rem;
+    /* Elimina el subrayado por defecto */
+    text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+main {
+    /* Relleno interno del contenido principal */
+    padding: 1rem;
+}
+
+/* Estilos para el pie de página */
+footer {
+ 
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+ .about-section {
+            background: #444;
+            padding: 40px;
+            margin: 50px auto;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .about-section h1 {
+            text-align: center;
+            color: #fff;
+        }
+        .about-section p {
+            line-height: 1.6;
+            color: #fff;
+        }
+        .about-section img {
+            display: block;
+            margin: 20px auto;
+            max-width: 150px;
+        }
+  .slider-container {
+            max-width: auto;
+            max-height: 100%;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .slider-content {
+            display: flex;
+            transition: transform 1s ease;
+            width: 100%; /* Ajusta el ancho según el número de imágenes */
+        }
+        .slider-item {
+            flex: 0 0 100%; /* Cada imagen ocupa el 100% del contenedor */
+        }
+        .slider-item img {
+            width: 500px; /* Las imágenes se ajustan al ancho del contenedor */
+            height: 600px;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+         .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+
+
+
+        /* Estilos para la barra de navegación */
+nav ul {
+    /* Elimina el estilo de lista por defecto */
+    list-style-type: none;
+    /* Elimina el relleno interno */
+    padding: 0;
+    /* Alineación del texto en el centro */
+    text-align: center;
+    /* Color de fondo de la barra de navegación */
+    background-color: #444;
+    /* Elimina los márgenes */
+    margin: 0;
+}
+
+/* Estilos para los elementos de la lista en la barra de navegación */
+nav ul li {
+    /* Muestra los elementos en línea */
+    display: inline-block;
+    /* Elimina los márgenes */
+    margin: 0;
+    position: relative;
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+nav ul li a {
+    display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li ul li {
+            display: block;
+        }
+        nav ul li:hover ul {
+            display: block;
+}
+
+   
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .gif-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gif-container img {
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+    
